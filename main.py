@@ -7,6 +7,8 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
+#spreadsheet used
+#https://docs.google.com/spreadsheets/d/1Uos-0UdmOgryvWNFL3EdTqX5lpoLcumQw3tGuff99Rc/edit?usp=drivesdk
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
 SPREADSHEET_ID = "1Uos-0UdmOgryvWNFL3EdTqX5lpoLcumQw3tGuff99Rc"
